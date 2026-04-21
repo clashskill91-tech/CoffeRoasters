@@ -1,0 +1,296 @@
+/* CSS Variables */
+:root {
+    --bg: #fff;
+    --text: #102a2b;
+    --muted: #6b7b7b;
+    --accent: #0b6b56;
+    --soft: #f2f2f2;
+    --card: #ffffff;
+}
+
+/* Global Styles */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: 'Barlow', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+    background: var(--bg);
+    color: var(--text);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Layout Container */
+.container {
+    max-width: 1100px;
+    margin: 48px auto;
+    padding: 0 24px;
+}
+
+/* Header */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo img {
+    width: 36px;
+    height: 36px;
+    object-fit: contain;
+}
+
+.logo b {
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: lowercase;
+}
+
+nav a {
+    margin-left: 28px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Main Section: Hero and Product Grid */
+main {
+    width: 56%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+main h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 1.02;
+    margin: 10px 0;
+}
+
+main p {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+main button {
+    margin-top: 22px;
+    background: var(--text);
+    color: #fff;
+    border: none;
+    padding: 14px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+section {
+    width: 40%;
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
+    vertical-align: top;
+    margin-left: 4%;
+}
+
+section > div {
+    background: var(--card);
+    border-radius: 8px;
+    padding: 26px;
+    text-align: left;
+    box-shadow: 0 6px 18px rgba(14, 16, 17, 0.06);
+}
+
+section img {
+    display: block;
+    margin: 0 0 16px;
+    width: 100%;
+    height: auto;
+    max-height: 120px;
+    object-fit: contain;
+}
+
+section h3 {
+    margin: 0 0 8px;
+    font-size: 18px;
+}
+
+section p {
+    margin: 0;
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Article: Features */
+article {
+    display: flex;
+    gap: 28px;
+    margin-top: 48px;
+    align-items: flex-start;
+}
+
+.art-text {
+    flex: 2;
+}
+
+.art-text h1 {
+    font-size: 36px;
+    margin: 0 0 12px;
+}
+
+.art-text p {
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+.art-box1, .art-box2, .art-box3 {
+    flex: 1;
+    background: var(--card);
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.art-box1 img, .art-box2 img, .art-box3 img {
+    width: 44px;
+    height: 44px;
+    margin-bottom: 12px;
+}
+
+.art-box1 h2, .art-box2 h2, .art-box3 h2 {
+    font-size: 16px;
+    margin: 6px 0;
+}
+
+.art-box1 p, .art-box2 p, .art-box3 p {
+    color: var(--muted);
+    font-size: 14px;
+}
+
+/* How It Works */
+.qoshimcha {
+    margin-top: 54px;
+    padding: 36px;
+    background: linear-gradient(180deg, #f9f9f9, #fff);
+    border-radius: 10px;
+}
+
+.qoshimcha h3 {
+    text-align: center;
+    margin: 0 0 18px;
+    font-size: 20px;
+}
+
+.chiziq {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    margin-bottom: 28px;
+}
+
+.chiziq img {
+    height: 8px;
+    opacity: 0.6;
+}
+
+.box01, .box02, .box03 {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+    background: var(--card);
+    padding: 18px;
+    border-radius: 8px;
+}
+
+.box01 img, .box02 img, .box03 img {
+    width: 48px;
+    height: 48px;
+}
+
+.box01 h2, .box02 h2, .box03 h2 {
+    font-size: 18px;
+    margin: 12px 0;
+}
+
+.box01 p, .box02 p, .box03 p {
+    color: var(--muted);
+    font-size: 14px;
+    line-height: 1.6;
+}
+
+.qoshimcha button {
+    display: block;
+    margin: 26px auto 0;
+    background: transparent;
+    border: 2px solid var(--text);
+    padding: 12px 22px;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+/* Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 48px;
+    padding-top: 34px;
+    border-top: 1px solid #eee;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.logo2 img {
+    width: 28px;
+}
+
+.nav2 a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 700;
+}
+
+/* General Polish */
+h1, h2, h3, h4, h5 {
+    color: var(--text);
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* Media Queries */
+@media (min-width: 1300px) {
+    .container {
+        max-width: 1200px;
+    }
+
+    main h1 {
+        font-size: 68px;
+    }
+}
+
