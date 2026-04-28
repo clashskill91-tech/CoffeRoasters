@@ -63,6 +63,9 @@ main {
         cursor: pointer;
     }
 }
+.m-text button:hover{
+    background-color:#66D2CF;
+}
 section {
     display: flex;
     margin-left: 50px;
@@ -151,6 +154,9 @@ article {
         cursor: pointer;
         margin-top: 50px;
     }
+}
+.qoshimcha button:hover{
+    background-color: #66D2CF;
 }
 .chiziq {
     width: 1000px;
