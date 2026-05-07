@@ -1,0 +1,141 @@
+.container {
+    width: 1790px;
+    padding-left: 100px;
+    background-color: #FEFCF7;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    img {
+        height: 35px;
+        padding-top: 49px;
+    }
+    h2 {
+        font-size: 45px;
+        padding-left: 10px;
+        color: #333D4B;
+    }
+    display: flex;
+}
+nav {
+    display: flex;
+    margin: 50px;
+    margin-right: 100px;
+    gap: 30px;
+    a {
+        font-size: 20px;
+        color: #83888F;
+        text-decoration: none;
+    }
+}
+nav a:hover {
+    color: #333D4B;
+}
+main {
+    background-image: url("imglar/group7(1).png");
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    width: 1700px;
+    border-radius: 10px;
+}
+.m-text {
+    color: white;
+    font-size: 24px;
+    padding: 150px;
+}
+.s1 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-top: 220px;
+    margin-left: 100px;
+    font-size: 25px;
+    img {
+        height: 660px;
+    }
+}
+.s2 {
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    margin-top: 300px;
+    font-size: 25px;
+    background-color: #333D4B;
+    padding: 150px;
+    width: 1400px;
+    height: 350px;
+    color: white;
+    border-radius: 15px;
+    img {
+        position: absolute;
+        height: 660px;
+        margin-left: 800px;
+        margin-top: -200px;
+    }
+}
+article {
+    margin-top: 250px;
+    margin-left: 100px;
+    h1 {
+        color: gray;
+        font-size: 40px;
+    }
+}
+.box {
+    padding-top: 100px;
+    display: flex;
+    gap:300px;
+    font-size: 25px;
+    h2 {
+        color: #333D4B;
+    }
+    img {
+        height: 70px;
+    }
+}
+footer {
+    background-color: #333D4B;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 200px;
+    margin-bottom: 70px;
+    margin-right: 100px;
+    padding: 20px;
+    .logo2 {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        margin-left: 50px;
+        img {
+            height: 40px;
+        }
+        h2 {
+            color: white;
+            font-size: 45px;
+        }
+    }
+    .nav2 {
+        display: flex;
+        gap: 30px;
+        a {
+            font-size: 20px;
+            color: gray;
+            text-decoration: none;
+        }
+    }
+}
+.icons {
+    height: 35px;
+    margin-right: 50px;
+}
+.nav2 a:hover {
+    color: white;
+}
+.icons:hover {
+    cursor: pointer;
+}
