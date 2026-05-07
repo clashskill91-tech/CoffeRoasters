@@ -9,33 +9,33 @@ header {
     align-items: center;
 }
 .logo {
-    img {
-        height: 35px;
-        padding-top: 49px;
-    }
-    h2 {
-        font-size: 45px;
-        padding-left: 10px;
-        color: #333D4B;
-    }
     display: flex;
+}
+.logo img {
+    height: 35px;
+    padding-top: 49px;
+}
+.logo h2 {
+    font-size: 45px;
+    padding-left: 10px;
+    color: #333D4B;
 }
 nav {
     display: flex;
     margin: 50px;
     margin-right: 100px;
     gap: 30px;
-    a {
-        font-size: 20px;
-        color: #83888F;
-        text-decoration: none;
-    }
+}
+nav a {
+    font-size: 20px;
+    color: #83888F;
+    text-decoration: none;
 }
 nav a:hover {
     color: #333D4B;
 }
 main {
-    background-image: url("imglar/bitmap\(2\).svg");   
+    background-image: url("imglar/bit.svg");   
     background-size: cover;
     background-position: center;
     width: 1700px;
@@ -46,14 +46,14 @@ main {
     color: white;
     font-size: 24px;
     padding: 130px;
-    h1 {
-        margin-top: 10px;
-        font-size: 100px;
-        margin-bottom: 20px;
-    }
-    p {
-        color: #FEFCF7;
-    }
+}
+.m-text h1 {
+    margin-top: 10px;
+    font-size: 100px;
+    margin-bottom: 20px;
+}
+.m-text p {
+    color: #FEFCF7;
 }
 .chiziq {
     margin: 100px;
@@ -66,9 +66,9 @@ main {
     position: absolute;
     margin-top: -125px;
     margin-left: 100px;
-    img {
-        height: 40px;
-    }
+}
+.aylana img {
+    height: 40px;
 }
 section {
     margin-top: 250px;
@@ -83,12 +83,12 @@ section {
     color: white;
     font-size: 30px;
     gap: 70px;
-    p {
-        font-size: 25px;
-    }
-    img {
-        height: 70px;
-    }
+}
+.box p {
+    font-size: 25px;
+}
+.box img {
+    height: 70px;
 }
 .menu {
     margin-top: 200px;
@@ -96,19 +96,17 @@ section {
     display: flex;
     gap: 200px;
 }
-.a01, .a02, .a03, .a04, .a05 {
-    button {
-        display: flex;
-        gap: 20px;
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-        width: 350px;
-        height: 80px;
-        font-size: 35px;
-        padding: 20px;
-        color: gray;
-    }
+.a01 button, .a02 button, .a03 button, .a04 button, .a05 button {
+    display: flex;
+    gap: 20px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    width: 350px;
+    height: 80px;
+    font-size: 35px;
+    padding: 20px;
+    color: gray;
 }
 .a01 button:hover, .a02 button:hover, .a03 button:hover, .a04 button:hover, .a05 button:hover {
     color: #333D4B;
@@ -116,16 +114,16 @@ section {
 .a1-text {
     display: flex;
     gap: 90px;
-    h2 {
-        color: gray;
-        font-size: 60px;
-    }
-    img {
-        width: 25px;
-    }
+}
+.a1-text h2 {
+    color: gray;
+    font-size: 60px;
+}
+.a1-text img {
+    width: 25px;
 }
 
-.button button{
+.button button {
     font-size: 30px;
     height: 350px;
     width: 300px;
@@ -133,9 +131,9 @@ section {
     border-radius: 15px;
     background-color: #F4F1EB;
     margin-right: 20px;
-    p {
-        font-size: 20px;
-    }
+}
+.button button p {
+    font-size: 20px;
 }
 .button button:hover {
     background-color: #FDD6BA;
@@ -152,46 +150,46 @@ section {
 .a2-text {
     display: flex;
     gap: 355px;
-    h2 {
-        color: gray;
-        font-size: 60px;
-    }
-    img {
-        width: 25px;
-    }
+}
+.a2-text h2 {
+    color: gray;
+    font-size: 60px;
+}
+.a2-text img {
+    width: 25px;
 }
 .a3-text {
     display: flex;
     gap: 187px;
-    h2 {
-        color: gray;
-        font-size: 60px;
-    }
-    img {
-        width: 25px;
-    }
+}
+.a3-text h2 {
+    color: gray;
+    font-size: 60px;
+}
+.a3-text img {
+    width: 25px;
 }
 .a4-text {
     display: flex;
     gap: 277px;
-    h2 {
-        color: gray;
-        font-size: 60px;
-    }
-    img {
-        width: 25px;
-    }
+}
+.a4-text h2 {
+    color: gray;
+    font-size: 60px;
+}
+.a4-text img {
+    width: 25px;
 }
 .a5-text {
     display: flex;
     gap: 130px;
-    h2 {
-        color: gray;
-        font-size: 60px;
-    }
-    img {
-        width: 25px;
-    }
+}
+.a5-text h2 {
+    color: gray;
+    font-size: 60px;
+}
+.a5-text img {
+    width: 25px;
 }
 .oxiri {
     margin-top: 100px;
@@ -202,10 +200,10 @@ section {
     border-radius: 15px;
     color: white;
     padding: 30px;
-    h4 {
-        color: gray;
-        font-size: 20px;
-    }
+}
+.oxiri h4 {
+    color: gray;
+    font-size: 20px;
 }
 .cr{
     margin-left: 1290px;
@@ -231,28 +229,28 @@ footer {
     margin-bottom: 70px;
     margin-right: 100px;
     padding: 20px;
-    .logo2 {
-        display: flex;
-        align-items: center;
-        gap: 10px;
-        margin-left: 50px;
-        img {
-            height: 40px;
-        }
-        h2 {
-            color: white;
-            font-size: 45px;
-        }
-    }
-    .nav2 {
-        display: flex;
-        gap: 30px;
-        a {
-            font-size: 20px;
-            color: gray;
-            text-decoration: none;
-        }
-    }
+}
+footer .logo2 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-left: 50px;
+}
+footer .logo2 img {
+    height: 40px;
+}
+footer .logo2 h2 {
+    color: white;
+    font-size: 45px;
+}
+footer .nav2 {
+    display: flex;
+    gap: 30px;
+}
+footer .nav2 a {
+    font-size: 20px;
+    color: gray;
+    text-decoration: none;
 }
 .icons {
     height: 35px;
